@@ -9,6 +9,9 @@
 
 % График воды (рендерится через Python → murray_flow_ratio.pdf)
 \usepackage{graphicx}
+\usepackage{array}
+\usepackage{ragged2e}
+\let\raggedright=\justifying
 
 % Настройка заголовков
 \setbeamerfont{title}{size=\LARGE}
@@ -17,7 +20,7 @@
 % Титульный
 \title{Инструменты разделения редких\\ и неравномерно распределённых ресурсов}
 \subtitle{25-минутный доклад для экономистов-математиков}
-\author{Ваше имя}
+\author{Мещеряков Вадим, Иванова Дарья, Мишаков Андрей, Петрунников Тимур}
 \date{\today}
 
 \begin{document}
@@ -35,7 +38,7 @@
       \item Конкуренция — на уровне \textbf{фирм и государств}, не домохозяйств
     \end{itemize}
 
-    \column{0.35\textwidth}
+    \column{0.4\textwidth}
     \includegraphics[width=\linewidth]{oil_sector_pie.pdf}
   \end{columns}
   \vspace{0.5cm}
@@ -46,14 +49,11 @@
 
 % ================= СЛАЙД 3 — ТРИ ОСИ =================
 \begin{frame}{Три оси — не путать}
-  \begin{tabular}{@{}llp{5cm}@{}}
-    \toprule
-    \textbf{Ось} & \textbf{Формально} & \textbf{Измеримый индикатор} \\
-    \midrule
-    Ограниченность (flow) & $\dot{Q} \le R$ & $R/Q$ (горизонт исчерпания) \\
-    Редкость (scarcity)   & $D(0) > Q$ & $S = D(0)-Q$, эластичность предложения \\
-    Неравномерность       & Концентрация прав & HHI по лицензиям, индекс Джини \\
-    \bottomrule
+  \begin{tabular}{|>{\centering\arraybackslash}p{2.7cm}|>{\centering\arraybackslash}p{2.2cm}|>{\centering\arraybackslash}p{4cm}|} \hline
+    \textbf{Ось} & \textbf{Формально} & \textbf{Измеримый индикатор} \\ \hline
+    Ограниченность (flow) & $\dot{Q} \le R$ & $R/Q$ (горизонт исчерпания) \\ \hline
+    Редкость (scarcity)   & $D(0) > Q$ & $S = D(0)-Q$, эластичность предложения \\ \hline
+    Неравномерность       & Концентрация прав & HHI по лицензиям, индекс Джини \\ \hline
   \end{tabular}
 
   \vspace{0.6cm}
@@ -66,16 +66,16 @@
 \begin{frame}{Матрица исключаемость / соперничество}
   \centering
   \begin{tikzpicture}
-    \draw[->] (0,0) -- (6,0) node[right] {Исключаемость};
-    \draw[->] (0,0) -- (0,5) node[above] {Соперничество};
-    \draw[thick] (0,0) rectangle (3,3) node[midway] {Частные};
-    \draw[thick] (3,0) rectangle (6,3) node[midway] {Клубные};
-    \draw[thick] (0,3) rectangle (3,6) node[midway] {Общие (commons)};
-    \draw[thick] (3,3) rectangle (6,6) node[midway] {Открытый доступ};
-    \node at (1.5,1.5) {рынок};
-    \node at (4.5,1.5) {рынок / гос.};
-    \node at (1.5,4.5) {общинные правила};
-    \node at (4.5,4.5) {деградация};
+    \draw[->, very thick] (0,0) -- (7,0) node[right] {\textit{Исключаемость}};
+    \draw[->, very thick] (0,0) -- (0,7) node[above] {\textit{Соперничество}};
+    \draw[thick] (0,0) rectangle (3.5,3.5) node[midway] {\textbf{Частные}};
+    \draw[thick] (3.5,0) rectangle (7,3.5) node[midway] {\textbf{Клубные}};
+    \draw[thick] (0,3.5) rectangle (3.5,7) node[midway] {\textbf{Общие (commons)}};
+    \draw[thick] (3.5,3.5) rectangle (7,7) node[midway] {\textbf{Открытый доступ}};
+    \node at (1.75,1.25) {(рынок)};
+    \node at (5.25,1.25) {(рынок / гос.)};
+    \node at (1.75,4.75) {(общинные правила)};
+    \node at (5.25,4.75) {(деградация)};
   \end{tikzpicture}
 \end{frame}
 
@@ -90,7 +90,7 @@
       \item Commons (Остром)
     \end{itemize}
 
-    \column{0.3\textwidth}
+    \column{0.35\textwidth}
     \textbf{Распределение}
     \begin{itemize}
       \item Аукцион (Vickrey)
@@ -98,7 +98,7 @@
       \item Переуступаемые квоты
     \end{itemize}
 
-    \column{0.3\textwidth}
+    \column{0.27\textwidth}
     \textbf{Ограничение}
     \begin{itemize}
       \item Налог Пигу
@@ -111,20 +111,18 @@
 % ================= СЛАЙД 6 — ВОДА (ЧИЛИ/АВСТРАЛИЯ) =================
 \begin{frame}{Вода: Чили (1981) vs Австралия (Murray--Darling)}
   \begin{columns}
-    \column{0.48\textwidth}
-    \begin{tabular}{@{}ll@{}}
-      \toprule
-      \textbf{Чили} & \textbf{Австралия} \\
-      \midrule
-      Частная, отделена от земли & Государственная (entitlement) \\
-      Аукцион + рынок & Бесплатная аллокация + trade \\
-      \textbf{Нет потолка} & \textbf{Cap} (экология) \\
-      Падение стока (Petorca) & Смягчение засухи \\
-      \bottomrule
+    \column{0.45\textwidth}
+    \begin{tabular}{|>{\centering\arraybackslash}p{2.2cm}|>{\centering\arraybackslash}p{2.5cm}|} \hline
+      \textbf{Чили} & \textbf{Австралия} \\ \hline
+      Частная, отделена от земли & Государственная (entitlement) \\ \hline
+      Аукцион + рынок & Бесплатная аллокация + trade \\ \hline
+      \textbf{Нет потолка} & \textbf{Cap} (экология) \\ \hline
+      Падение стока (Petorca) & Смягчение засухи \\ \hline
+
     \end{tabular}
     \footnotesize \textit{Источники: Bauer (2004), Budds (2008), Grafton et al. (2012), MDBA (2020)}
 
-    \column{0.48\textwidth}
+    \column{0.53\textwidth}
     \includegraphics[width=\linewidth]{murray_flow_ratio.pdf}
   \end{columns}
 \end{frame}
@@ -133,12 +131,12 @@
 \begin{frame}{Формальная суть}
   \begin{columns}
     \column{0.5\textwidth}
-    \textbf{Чили — без потолка}
+    \centering\textbf{Чили — без потолка}
     $$q_i \ge 0,\quad \sum q_i \text{ не ограничен}$$
     Цена $\to$ предельные издержки, \textbf{не} ценность воды.
 
     \column{0.5\textwidth}
-    \textbf{Австралия — внутри Cap}
+    \centering\textbf{Австралия — внутри Cap}
     $$\bar{Q} = \sum q_i,\quad q_i = e_i \cdot \frac{\bar{Q}}{\sum e_i}$$
     Торговля \textit{долей} потолка. В засуху $\bar{Q}$ падает — цена растёт, \textbf{но объём $\le \bar{Q}$}.
   \end{columns}
@@ -151,14 +149,11 @@
 % ================= СЛАЙД 8 — ИНСТРУМЕНТАРИЙ (ТАБЛИЦА) =================
 \begin{frame}{Что это значит для выбора инструмента}
   \centering
-  \begin{tabular}{@{}ccc@{}}
-    \toprule
-    Режим & Инструмент & Условие работы \\
-    \midrule
-    Частная & Рынок & Спецификация прав \\
-    Государственная & Cap + trade & Измеримый потолок \\
-    Commons & Правила сообщества & Границы + мониторинг \\
-    \bottomrule
+  \begin{tabular}{|>{\centering\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{4cm}|} \hline
+   \textbf{Режим} & \textbf{Инструмент} & \textbf{Условие работы} \\ \hline
+    Частная & Рынок & Спецификация прав \\ \hline
+    Государственная & Cap + trade & Измеримый потолок \\ \hline
+    Commons & Правила сообщества & Границы + мониторинг \\ \hline
   \end{tabular}
   \vspace{0.8cm}
   \begin{block}{}
@@ -169,8 +164,8 @@
 % ================= СЛАЙД 9 — ВАЙЦМАН =================
 \begin{frame}{Правило Вайцмана (1974): цена vs количество}
   \begin{columns}
-    \column{0.5\textwidth}
-    \begin{tikzpicture}[scale=0.7]
+    \column{0.45\textwidth}
+    \begin{tikzpicture}[scale=1]
       \begin{axis}[axis lines=left, width=0.9\linewidth]
         \addplot[blue, thick] coordinates {(0,8) (6,2)} node[midway,above] {$MB$};
         \addplot[red, thick]  coordinates {(0,2) (6,8)} node[midway,above] {$MC$};
@@ -178,8 +173,8 @@
         \node at (2.5,5) {налог};
       \end{axis}
     \end{tikzpicture}
-    \column{0.5\textwidth}
-    \begin{tikzpicture}[scale=0.7]
+    \column{0.45\textwidth}
+    \begin{tikzpicture}[scale=1]
       \begin{axis}[axis lines=left, width=0.9\linewidth]
         \addplot[blue, thick] coordinates {(0,8) (6,5)} node[midway,above] {$MB$};
         \addplot[red, thick]  coordinates {(0,4) (6,7)} node[midway,above] {$MC$};
@@ -224,15 +219,12 @@
 % ================= СЛАЙД 11 — ЗАКРЫТИЕ =================
 \begin{frame}{Синтез}
   \centering
-  \begin{tabular}{@{}ccc@{}}
-    \toprule
-    Ресурс & Инструмент & Почему \\
-    \midrule
-    Вода (Чили) & Рынок & Нет потолка — цена не останавливает \\
-    Вода (Австралия) & Cap + trade & Потолок — цена останавливает \\
-    Углерод & Вайцман & Крутая MB — квота \\
-    Органы & UNOS (MELD) & Нет рынка — приоритет \\
-    \bottomrule
+  \begin{tabular}{|>{\centering\arraybackslash}p{2.3cm}|>{\centering\arraybackslash}p{2.1cm}|>{\centering\arraybackslash}p{3.2cm}|} \hline
+    \textbf{Ресурс} & \textbf{Инструмент} & \textbf{Почему} \\ \hline
+    Вода (Чили) & Рынок & Нет потолка — цена не останавливает \\ \hline
+    Вода (Австралия) & Cap + trade & Потолок — цена останавливает \\ \hline
+    Углерод & Вайцман & Крутая MB — квота \\ \hline
+    Органы & UNOS (MELD) & Нет рынка — приоритет \\ \hline
   \end{tabular}
 
   \vspace{0.8cm}
@@ -242,27 +234,107 @@
   \end{block}
 \end{frame}
 
-% ================= СЛАЙД 12 — ВОПРОС + ИСТОЧНИКИ =================
-\begin{frame}{Вопрос залу \& источники}
+% ================= СЛАЙД 12 — ВОПРОС =================
+\begin{frame}{Вопрос залу}
   \begin{columns}
     \column{0.6\textwidth}
     \textbf{Вопрос:} \\
     На каком ресурсе из перечисленных вы бы \textbf{запретили} цену? \\
     (вода, органы, радиочастоты, углерод, земля)
-    
-    \vspace{0.5cm}
-    \textbf{Основные источники:}
-    \begin{itemize}
+  \end{columns}
+\end{frame}
+
+% ================= СЛАЙД 12 =================
+\begin{frame}{Джон Перкинс "Исповедь экономического убийцы"}
+ \textbf{Кто контролирует ресурс, кто получает к нему доступ и как распределяется созданная им экономическая выгода?}
+ \vspace{0.5cm}
+
+Капитал превращается в средство доступа к другим ресурсам.
+
+\begin{itemize}
+    \item Страна нуждается в капитале
+    \item Получает крупный кредит
+    \item Строит инфраструктуру
+    \item Увеличивает долг
+    \item Кредитор получает экономическое и политическое влияние
+\end{itemize}
+ 
+\end{frame}
+
+\begin{frame}{Экономические убийцы и их цели}
+\textbf{Экономические убийцы (ЭУ)} - это высокооплачиваемые профессионалы, которые выманивают у разных государств по всему миру триллионы долларов. Их задача - подталкивать правительства суверенных государств к проведению рекомендуемого комплекса социально-экономических реформ, обещающих модернизацию экономики, развитие современного рыночного хозяйства, привлечение прогрессивных технологий через иностранные инвестиции.
+\vspace{0.5cm}
+\begin{itemize}
+    \item Чрезмерные внешние заимствования
+    \item Цель - обанкротить страны-заемщики
+    \item Та же "колониальная система"
+    \item Исключительно оптимистичные прогнозы развития экономики в целях обоснования огромных займов
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Что происходит с экономикой государств-заёмщиков? Эквадор}
+ Есть 100 \$, извлекаемых в виде нефти из ливневых лесов Эквадора.
+ \vspace{0.5cm}
+ \begin{itemize}
+    \item 75 \$ - нефтяным компаниям
+    \item 18,75 \$ - на выплату внешнего долга
+    \item Осталось 6,25 \$
+    \item Большая часть из них - на армию и правительство
+    \item ~2,5 \$ - на здравоохранение, обучение и программы поддержки беднейшего населения
+\end{itemize}
+\vspace{0.5cm}
+Государство, обладающее ресурсами, само фактически ничего с них не получает.\\
+Отмечаются также обманчивая природа ВНП, значительное ухудшение экологии.
+\end{frame}
+
+\begin{frame}{Инструменты управления редкими и неравномерно распределенными ресурсами}
+\begin{table}[H]
+\centering
+\begin{tabular}{|>{\centering\arraybackslash}p{4cm}|>{\centering\arraybackslash}p{6cm}|}
+\hline
+\textbf{Инструмент} & \textbf{Что позволяет контролировать}\\ \hline
+Кредиты и внешний долг & Будущие доходы и экономические решения страны \\ \hline
+Экономические прогнозы & Решение о том, сколько страна будет занимать \\ \hline
+Инфраструктурные проекты & Направление капитала и будущие экономические потоки  \\ \hline
+Доступ к природным ресурсам & Доступ иностранных компаний к ресурсной базе \\ \hline
+Международные копрорации& Производство, контракты, добыча, прибыль \\ \hline
+Международные финансовые институты & Экономическая политика государств-должников \\ \hline
+Политическое давление & Политические решения правительства \\ \hline
+Силовой инструмент & Сохранение стратегического влияния \\ \hline
+\end{tabular} 
+\end{table}
+\end{frame}
+
+\begin{frame}{Почему книга называется "исповедью"?}
+\begin{itemize}
+    \item Экономические отношения рассматриваются прежде всего через призму денег и выгоды
+    \item Не только профессиональная работа, но и моральная проблема
+    \item Не просто раскрытие механизмов экономического влияния, но и личное переосмысление автором собственного участия в них
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Судьба Эквадора в 2008-2009 гг. \\Долг как инструмент управления ресурсами и возможность государства изменить баланс сил с кредиторами}
+\begin{itemize}
+  \item Эквадор провёл аудит государственного долга и объявил два выпуска международных облигаций нелегитимными.
+  \item В ноябре 2008 года государство отказалось платить по этим облигациям, то есть допустило дефолт.
+  \item После дефолта стоимость облигаций рещко упала.
+  \item В 2009 году Эквадор предложил кредиторам выкупить эти облигации примерно за 35 центов за \$1 номанила. Более 90\% держателей согласились.
+  \item В результате Эквадор получил примерно 65\% списания по этому долгу, а кредиторы понесли большие потери.
+  \item Через несколько лет Эквадор снова получил доступ к международному рынку облигаций - в 2014 году.
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}{Основные источники:}
+\begin{itemize}
       \item Bauer (2004) — \textit{Against the Current}
       \item Budds (2008) — \textit{Geoforum}
       \item Grafton et al. (2012) — \textit{Water Planning and Hydro-Climatic Change}
       \item Weitzman (1974) — \textit{RES}
       \item UNOS/OPTN (2023) — Policy 4.0
-    \end{itemize}
-
-    %\column{0.35\textwidth}
-    %\includegraphics[width=\linewidth]{water_capital.pdf}
-  \end{columns}
+      \item John Perkins (2004) - \textit{Confessions of an Economic Hit Man}
+\end{itemize}
 \end{frame}
 
 \end{document}
