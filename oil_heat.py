@@ -15,6 +15,6 @@ wedges, texts, autotexts = ax.pie(
 for t in autotexts:
     t.set_fontsize(9)
     t.set_fontweight('bold')
-ax.set_title('Нефть: конечное потребление по секторам (EIA 2023)', fontsize=11)
+ax.set_title('Нефть: конечное потребление (EIA 2023)', fontsize=11)
 plt.tight_layout()
 plt.savefig('oil_sector_pie.pdf', dpi=300)
