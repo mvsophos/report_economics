@@ -36,7 +36,7 @@ ax.axvline(x=q_opt, color='gray', ls=':', alpha=0.6)
 
 # Подписи
 ax.set_xlabel('Сокращение выбросов (GtCO₂ / год)', fontsize=11)
-ax.set_ylabel('Цена / предельные издержки ($ за тонну CO₂)', fontsize=11)
+ax.set_ylabel('Цена / издержки ($ за тонну CO₂)', fontsize=11)
 ax.set_title('Правило Вайцмана: пологая MB vs крутая MC (Nordhaus 2018)', fontsize=12, fontweight='bold')
 ax.legend(loc='upper left', fontsize=9)
 ax.grid(True, alpha=0.35)

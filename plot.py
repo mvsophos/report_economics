@@ -11,7 +11,7 @@ ax.axhline(y=0.32, color='#d62728', linestyle='--', linewidth=2,
            label='Cap (1995) — median 1998–2008')
 ax.set_xlabel('Year')
 ax.set_ylabel('Observed / Natural flow')
-ax.set_title('Murray River at Swan Hill: flow reduction during Millennium Drought')
+ax.set_title('Murray River at Swan Hill: flow reduction during Millennium Drought', fontsize=9)
 ax.legend()
 ax.grid(True, alpha=0.3)
 ax.set_ylim(0.25, 0.7)
