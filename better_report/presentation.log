@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.9.19)  24 SEP 2026 19:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.9.19)  24 SEP 2026 19:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2029,18 +2029,13 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [12
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 300--300
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 304--304
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 300--300
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 304--304
  [][][][] []  
- []
-
-
-Overfull \hbox (21.5984pt too wide) in paragraph at lines 300--300
-[][]  
  []
 
 
@@ -2056,12 +2051,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [13
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 319--319
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 333--333
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 319--319
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 333--333
  [][][][] []  
  []
 
@@ -2088,6 +2083,11 @@ Overfull \hbox (86.60367pt too wide) in paragraph at lines 348--348
  []
 
 
+Overfull \hbox (21.5984pt too wide) in paragraph at lines 348--348
+[][]  
+ []
+
+
 Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
@@ -2100,12 +2100,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [15
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 362--362
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 364--364
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 362--362
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 364--364
  [][][][] []  
  []
 
@@ -2122,12 +2122,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [16
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 377--377
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 379--379
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 377--377
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 379--379
  [][][][] []  
  []
 
@@ -2144,12 +2144,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [17
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 388--388
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 390--390
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 388--388
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 390--390
  [][][][] []  
  []
 
@@ -2166,12 +2166,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [18
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 427--427
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 429--429
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 427--427
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 429--429
  [][][][] []  
  []
 
@@ -2188,12 +2188,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [19
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 438--438
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 440--440
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 438--438
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 440--440
  [][][][] []  
  []
 
@@ -2210,17 +2210,17 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [20
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 456--456
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 458--458
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 456--456
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 458--458
  [][][][] []  
  []
 
 
-Overfull \hbox (3.42113pt too wide) in paragraph at lines 456--456
+Overfull \hbox (3.42113pt too wide) in paragraph at lines 458--458
  []|\T2A/cmr/bx/n/10 Инструмент| 
  []
 
@@ -2237,12 +2237,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [21
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 483--483
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 485--485
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 483--483
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 485--485
  [][][][] []  
  []
 
@@ -2316,7 +2316,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy9.pfb>
-Output written on presentation.pdf (22 pages, 447556 bytes).
+Output written on presentation.pdf (22 pages, 447534 bytes).
 PDF statistics:
  1546 PDF objects out of 1728 (max. 8388607)
  716 compressed objects within 8 object streams
