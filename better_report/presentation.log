@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.9.19)  24 SEP 2026 19:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.9.19)  24 SEP 2026 23:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1939,28 +1939,13 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [9
 
  <./weitzman_schematic.pdf>]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 216--216
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 208--208
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 216--216
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 208--208
  [][][][] []  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--216
-[]\T2A/cmr/m/it/10 ќбычно при-ме-н€-ет-с€: \T2A/cmr/m/n/10 √ейл--
- []
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 216--216
-\T2A/cmr/m/n/10 Ўепли ^^V ко-гда день-ги за-пре-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--216
-\T2A/cmr/m/n/10 ще-ны (ре-зи-ден-ту-ра, шко-лы,
  []
 
 
@@ -1976,12 +1961,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [10
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 235--235
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 237--237
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 235--235
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 237--237
  [][][][] []  
  []
 
@@ -1998,22 +1983,28 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [11
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 285--285
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 266--266
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 285--285
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 266--266
  [][][][] []  
  []
 
 
-Overfull \hbox (4.44556pt too wide) in paragraph at lines 285--285
-[][]  
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
+[]\T2A/cmr/m/it/10 ќбычно при-ме-н€-ет-с€: \T2A/cmr/m/n/10 √ейл--
  []
 
 
-Overfull \vbox (1.61635pt too high) detected at line 285
+Underfull \hbox (badness 1389) in paragraph at lines 266--266
+\T2A/cmr/m/n/10 Ўепли ^^V ко-гда день-ги за-пре-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
+\T2A/cmr/m/n/10 ще-ны (ре-зи-ден-ту-ра, шко-лы,
  []
 
 
@@ -2029,12 +2020,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [12
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 304--304
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 285--285
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 304--304
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 285--285
  [][][][] []  
  []
 
@@ -2051,13 +2042,22 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [13
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 333--333
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 335--335
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 333--333
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 335--335
  [][][][] []  
+ []
+
+
+Overfull \hbox (4.44556pt too wide) in paragraph at lines 335--335
+[][]  
+ []
+
+
+Overfull \vbox (1.61635pt too high) detected at line 335
  []
 
 
@@ -2073,17 +2073,17 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [14
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 348--348
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 350--350
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 348--348
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 350--350
  [][][][] []  
  []
 
 
-Overfull \hbox (21.5984pt too wide) in paragraph at lines 348--348
+Overfull \hbox (21.5984pt too wide) in paragraph at lines 350--350
 [][]  
  []
 
@@ -2100,12 +2100,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [15
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 364--364
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 366--366
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 364--364
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 366--366
  [][][][] []  
  []
 
@@ -2122,12 +2122,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [16
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 379--379
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 381--381
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 379--379
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 381--381
  [][][][] []  
  []
 
@@ -2144,12 +2144,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [17
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 390--390
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 392--392
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 390--390
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 392--392
  [][][][] []  
  []
 
@@ -2166,12 +2166,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [18
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 429--429
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 431--431
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 429--429
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 431--431
  [][][][] []  
  []
 
@@ -2188,12 +2188,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [19
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 440--440
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 442--442
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 440--440
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 442--442
  [][][][] []  
  []
 
@@ -2210,17 +2210,17 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [20
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 458--458
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 460--460
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 458--458
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 460--460
  [][][][] []  
  []
 
 
-Overfull \hbox (3.42113pt too wide) in paragraph at lines 458--458
+Overfull \hbox (3.42113pt too wide) in paragraph at lines 460--460
  []|\T2A/cmr/bx/n/10 »нструмент| 
  []
 
@@ -2237,12 +2237,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [21
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 485--485
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 487--487
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 485--485
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 487--487
  [][][][] []  
  []
 
@@ -2287,9 +2287,9 @@ Here is how much of TeX's memory you used:
  579333 words of font info for 85 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  101i,15n,107p,763b,1688s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx0800.600pk
-> </home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0900.600pk>
- </home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx0900.600pk> 
+ </home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0900.600pk
+> </home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx0900.600pk>
+ </home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx0800.600pk> 
 </home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0600.600pk> <
 /home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati0800.600pk> </
 home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0800.600pk> </h
@@ -2316,7 +2316,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy9.pfb>
-Output written on presentation.pdf (22 pages, 447534 bytes).
+Output written on presentation.pdf (22 pages, 447529 bytes).
 PDF statistics:
  1546 PDF objects out of 1728 (max. 8388607)
  716 compressed objects within 8 object streams
