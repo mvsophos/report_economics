@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.9.19)  24 SEP 2026 23:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.9.19)  25 SEP 2026 01:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2100,12 +2100,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [15
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 366--366
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 371--371
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 366--366
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 371--371
  [][][][] []  
  []
 
@@ -2122,12 +2122,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [16
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 381--381
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 382--382
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 381--381
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 382--382
  [][][][] []  
  []
 
@@ -2144,12 +2144,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [17
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 392--392
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 397--397
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 392--392
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 397--397
  [][][][] []  
  []
 
@@ -2166,13 +2166,18 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [18
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 431--431
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 416--416
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 431--431
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 416--416
  [][][][] []  
+ []
+
+
+Overfull \hbox (2.43765pt too wide) in paragraph at lines 416--416
+ [] 
  []
 
 
@@ -2188,12 +2193,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [19
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 442--442
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 424--424
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 442--442
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 424--424
  [][][][] []  
  []
 
@@ -2210,18 +2215,13 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [20
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 460--460
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 437--437
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 460--460
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 437--437
  [][][][] []  
- []
-
-
-Overfull \hbox (3.42113pt too wide) in paragraph at lines 460--460
- []|\T2A/cmr/bx/n/10 Инструмент| 
  []
 
 
@@ -2237,12 +2237,12 @@ Overfull \hbox (86.60367pt too wide) has occurred while \output is active
 [21
 
 ]
-Overfull \hbox (70.18755pt too wide) in paragraph at lines 487--487
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 465--465
  [][]  
  []
 
 
-Overfull \hbox (86.60367pt too wide) in paragraph at lines 487--487
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 465--465
  [][][][] []  
  []
 
@@ -2280,13 +2280,13 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45189 strings out of 475656
- 1037299 string characters out of 5787141
+ 45202 strings out of 475656
+ 1037652 string characters out of 5787141
  1941975 words of memory out of 5000000
- 66377 multiletter control sequences out of 15000+600000
- 579333 words of font info for 85 fonts, out of 8000000 for 9000
+ 66392 multiletter control sequences out of 15000+600000
+ 577788 words of font info for 79 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 101i,15n,107p,763b,1688s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,107p,801b,1688s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0900.600pk
 > </home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx0900.600pk>
  </home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx0800.600pk> 
@@ -2302,24 +2302,23 @@ adim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1728.600pk></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy9.pfb>
-Output written on presentation.pdf (22 pages, 447529 bytes).
+f-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy9.pfb>
+Output written on presentation.pdf (22 pages, 436481 bytes).
 PDF statistics:
- 1546 PDF objects out of 1728 (max. 8388607)
- 716 compressed objects within 8 object streams
+ 1538 PDF objects out of 1728 (max. 8388607)
+ 713 compressed objects within 8 object streams
  45 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
