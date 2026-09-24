@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.9.19)  24 SEP 2026 00:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.9.19)  24 SEP 2026 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -942,6 +942,85 @@ Package babel Info: Importing font and identification data for russian
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/animate/animate.sty
+Package: animate 2023/06/18 PDF & SVG animations from files and inline graphics
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count338
+\calc@Bcount=\count339
+\calc@Adimen=\dimen295
+\calc@Bdimen=\dimen296
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count340
+\calc@Cskip=\skip67
+)
+(/usr/share/texlive/texmf-dist/tex/latex/media9/pdfbase.sty
+Package: pdfbase 2022/08/04 v0.55 driver independent access to low-level PDF fe
+atures
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count341
+\l__pdf_internal_box=\box76
+)
+\g_pbs_page_int=\count342
+\g_pbs_oc_int=\count343
+)
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2023-09-14 v2.35 Module abspage for zref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2023-09-14 v2.35 Module base for zref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count344
+Package zref Info: New property: abspage on input line 67.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ocgx2/ocgbase.sty
+Package: ocgbase 2022/08/04 v0.22 support package for ocgx2.sty
+\g_ocgbase_nd_int=\count345
+)
+\@anim@box=\box77
+\@anim@measbox=\box78
+\@anim@tmpdima=\dimen297
+\@anim@tmpdimb=\dimen298
+\@anim@num=\count346
+\@anim@curframe=\count347
+\@anim@curframe@zb=\count348
+\@anim@resizeflags=\count349
+\@anim@skipfram=\count350
+\@anim@mulframecnt=\count351
+\@anim@@tmlnfile=\read4
+\@anim@tmpcnt=\count352
+\c@@anim@ltxcnt=\count353
+\@anim@curlayer=\count354
+\@anim@lineno=\count355
+\@anim@curfield=\count356
+\@anim@@resizeflags=\count357
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks48
+\verbatim@line=\toks49
+\verbatim@in@stream=\read5
+)
 (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
@@ -952,15 +1031,15 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box76
+\pgfnodeparttextbox=\box79
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen295
-\pgf@nodesepend=\dimen296
+\pgf@nodesepstart=\dimen299
+\pgf@nodesepend=\dimen300
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -968,10 +1047,10 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen297
-\pgffor@skip=\dimen298
-\pgffor@stack=\toks48
-\pgffor@toks=\toks49
+\pgffor@iter=\dimen301
+\pgffor@skip=\dimen302
+\pgffor@stack=\toks50
+\pgffor@toks=\toks51
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
@@ -979,33 +1058,33 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count338
-\pgfplotmarksize=\dimen299
+\pgf@plot@mark@count=\count358
+\pgfplotmarksize=\dimen303
 )
-\tikz@lastx=\dimen300
-\tikz@lasty=\dimen301
-\tikz@lastxsaved=\dimen302
-\tikz@lastysaved=\dimen303
-\tikz@lastmovetox=\dimen304
-\tikz@lastmovetoy=\dimen305
-\tikzleveldistance=\dimen306
-\tikzsiblingdistance=\dimen307
-\tikz@figbox=\box77
-\tikz@figbox@bg=\box78
-\tikz@tempbox=\box79
-\tikz@tempbox@bg=\box80
-\tikztreelevel=\count339
-\tikznumberofchildren=\count340
-\tikznumberofcurrentchild=\count341
-\tikz@fig@count=\count342
+\tikz@lastx=\dimen304
+\tikz@lasty=\dimen305
+\tikz@lastxsaved=\dimen306
+\tikz@lastysaved=\dimen307
+\tikz@lastmovetox=\dimen308
+\tikz@lastmovetoy=\dimen309
+\tikzleveldistance=\dimen310
+\tikzsiblingdistance=\dimen311
+\tikz@figbox=\box80
+\tikz@figbox@bg=\box81
+\tikz@tempbox=\box82
+\tikz@tempbox@bg=\box83
+\tikztreelevel=\count359
+\tikznumberofchildren=\count360
+\tikznumberofcurrentchild=\count361
+\tikz@fig@count=\count362
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count343
-\pgfmatrixcurrentcolumn=\count344
-\pgf@matrix@numberofcolumns=\count345
+\pgfmatrixcurrentrow=\count363
+\pgfmatrixcurrentcolumn=\count364
+\pgf@matrix@numberofcolumns=\count365
 )
-\tikz@expandcount=\count346
+\tikz@expandcount=\count366
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1013,12 +1092,12 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks50
-\t@pgfplots@tokb=\toks51
-\t@pgfplots@tokc=\toks52
-\pgfplots@tmpa=\dimen308
-\c@pgfplots@coordindex=\count347
-\c@pgfplots@scanlineindex=\count348
+\t@pgfplots@toka=\toks52
+\t@pgfplots@tokb=\toks53
+\t@pgfplots@tokc=\toks54
+\pgfplots@tmpa=\dimen312
+\c@pgfplots@coordindex=\count367
+\c@pgfplots@scanlineindex=\count368
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
 .tex))
@@ -1029,9 +1108,9 @@ gfsupp_loader.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
 )
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks53
-\t@pgf@tokb=\toks54
-\t@pgf@tokc=\toks55
+\t@pgf@toka=\toks55
+\t@pgf@tokb=\toks56
+\t@pgf@tokc=\toks57
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_pgfutil-common-lists.tex))
@@ -1042,14 +1121,14 @@ tructure.code.tex)
 tructureext.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
 .code.tex
-\c@pgfplotsarray@tmp=\count349
+\c@pgfplotsarray@tmp=\count369
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
 x.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
 d.code.tex
-\c@pgfplotstable@counta=\count350
-\t@pgfplotstable@a=\toks56
+\c@pgfplotstable@counta=\count370
+\t@pgfplotstable@a=\toks58
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
 .code.tex)
@@ -1061,7 +1140,7 @@ de.tex))
 .tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
 fshading.code.tex
-\c@pgfplotslibrarysurf@no=\count351
+\c@pgfplotslibrarysurf@no=\count371
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
 shading.pgfsys-pdftex.def)))
@@ -1088,16 +1167,16 @@ e.tex)
 zlibrarydecorations.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
 e.tex
-\pgfdecoratedcompleteddistance=\dimen309
-\pgfdecoratedremainingdistance=\dimen310
-\pgfdecoratedinputsegmentcompleteddistance=\dimen311
-\pgfdecoratedinputsegmentremainingdistance=\dimen312
-\pgf@decorate@distancetomove=\dimen313
-\pgf@decorate@repeatstate=\count352
-\pgfdecorationsegmentamplitude=\dimen314
-\pgfdecorationsegmentlength=\dimen315
+\pgfdecoratedcompleteddistance=\dimen313
+\pgfdecoratedremainingdistance=\dimen314
+\pgfdecoratedinputsegmentcompleteddistance=\dimen315
+\pgfdecoratedinputsegmentremainingdistance=\dimen316
+\pgf@decorate@distancetomove=\dimen317
+\pgf@decorate@repeatstate=\count372
+\pgfdecorationsegmentamplitude=\dimen318
+\pgfdecorationsegmentlength=\dimen319
 )
-\tikz@lib@dec@box=\box81
+\tikz@lib@dec@box=\box84
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.pathmorphing.code.tex
@@ -1109,13 +1188,13 @@ zlibrarydecorations.pathreplacing.code.tex
 decorations.pathreplacing.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.co
 ntourlua.code.tex)
-\pgfplots@numplots=\count353
-\pgfplots@xmin@reg=\dimen316
-\pgfplots@xmax@reg=\dimen317
-\pgfplots@ymin@reg=\dimen318
-\pgfplots@ymax@reg=\dimen319
-\pgfplots@zmin@reg=\dimen320
-\pgfplots@zmax@reg=\dimen321
+\pgfplots@numplots=\count373
+\pgfplots@xmin@reg=\dimen320
+\pgfplots@xmax@reg=\dimen321
+\pgfplots@ymin@reg=\dimen322
+\pgfplots@ymax@reg=\dimen323
+\pgfplots@zmin@reg=\dimen324
+\pgfplots@zmax@reg=\dimen325
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryplotmarks.code.tex
@@ -1126,94 +1205,91 @@ de.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen322
-\lightrulewidth=\dimen323
-\cmidrulewidth=\dimen324
-\belowrulesep=\dimen325
-\belowbottomsep=\dimen326
-\aboverulesep=\dimen327
-\abovetopsep=\dimen328
-\cmidrulesep=\dimen329
-\cmidrulekern=\dimen330
-\defaultaddspace=\dimen331
-\@cmidla=\count354
-\@cmidlb=\count355
-\@aboverulesep=\dimen332
-\@belowrulesep=\dimen333
-\@thisruleclass=\count356
-\@lastruleclass=\count357
-\@thisrulewidth=\dimen334
+\heavyrulewidth=\dimen326
+\lightrulewidth=\dimen327
+\cmidrulewidth=\dimen328
+\belowrulesep=\dimen329
+\belowbottomsep=\dimen330
+\aboverulesep=\dimen331
+\abovetopsep=\dimen332
+\cmidrulesep=\dimen333
+\cmidrulekern=\dimen334
+\defaultaddspace=\dimen335
+\@cmidla=\count374
+\@cmidlb=\count375
+\@aboverulesep=\dimen336
+\@belowrulesep=\dimen337
+\@thisruleclass=\count376
+\@lastruleclass=\count377
+\@thisrulewidth=\dimen338
 )
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count358
+\lrq@indent=\count378
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-)
-\c@tabx@nest=\count359
-\c@listtotal=\count360
-\c@listcount=\count361
-\c@liststart=\count362
-\c@liststop=\count363
-\c@citecount=\count364
-\c@citetotal=\count365
-\c@multicitecount=\count366
-\c@multicitetotal=\count367
-\c@instcount=\count368
-\c@maxnames=\count369
-\c@minnames=\count370
-\c@maxitems=\count371
-\c@minitems=\count372
-\c@citecounter=\count373
-\c@maxcitecounter=\count374
-\c@savedcitecounter=\count375
-\c@uniquelist=\count376
-\c@uniquename=\count377
-\c@refsection=\count378
-\c@refsegment=\count379
-\c@maxextratitle=\count380
-\c@maxextratitleyear=\count381
-\c@maxextraname=\count382
-\c@maxextradate=\count383
-\c@maxextraalpha=\count384
-\c@abbrvpenalty=\count385
-\c@highnamepenalty=\count386
-\c@lownamepenalty=\count387
-\c@maxparens=\count388
-\c@parenlevel=\count389
-\blx@tempcnta=\count390
-\blx@tempcntb=\count391
-\blx@tempcntc=\count392
-\c@blx@maxsection=\count393
-\blx@maxsegment@0=\count394
-\blx@notetype=\count395
-\blx@parenlevel@text=\count396
-\blx@parenlevel@foot=\count397
-\blx@sectionciteorder@0=\count398
-\blx@sectionciteorderinternal@0=\count399
-\blx@entrysetcounter=\count400
-\blx@biblioinstance=\count401
-\labelnumberwidth=\skip65
-\labelalphawidth=\skip66
-\biblabelsep=\skip67
-\bibitemsep=\skip68
-\bibnamesep=\skip69
-\bibinitsep=\skip70
-\bibparsep=\skip71
-\bibhang=\skip72
-\blx@bcfin=\read4
+\c@tabx@nest=\count379
+\c@listtotal=\count380
+\c@listcount=\count381
+\c@liststart=\count382
+\c@liststop=\count383
+\c@citecount=\count384
+\c@citetotal=\count385
+\c@multicitecount=\count386
+\c@multicitetotal=\count387
+\c@instcount=\count388
+\c@maxnames=\count389
+\c@minnames=\count390
+\c@maxitems=\count391
+\c@minitems=\count392
+\c@citecounter=\count393
+\c@maxcitecounter=\count394
+\c@savedcitecounter=\count395
+\c@uniquelist=\count396
+\c@uniquename=\count397
+\c@refsection=\count398
+\c@refsegment=\count399
+\c@maxextratitle=\count400
+\c@maxextratitleyear=\count401
+\c@maxextraname=\count402
+\c@maxextradate=\count403
+\c@maxextraalpha=\count404
+\c@abbrvpenalty=\count405
+\c@highnamepenalty=\count406
+\c@lownamepenalty=\count407
+\c@maxparens=\count408
+\c@parenlevel=\count409
+\blx@tempcnta=\count410
+\blx@tempcntb=\count411
+\blx@tempcntc=\count412
+\c@blx@maxsection=\count413
+\blx@maxsegment@0=\count414
+\blx@notetype=\count415
+\blx@parenlevel@text=\count416
+\blx@parenlevel@foot=\count417
+\blx@sectionciteorder@0=\count418
+\blx@sectionciteorderinternal@0=\count419
+\blx@entrysetcounter=\count420
+\blx@biblioinstance=\count421
+\labelnumberwidth=\skip68
+\labelalphawidth=\skip69
+\biblabelsep=\skip70
+\bibitemsep=\skip71
+\bibnamesep=\skip72
+\bibinitsep=\skip73
+\bibparsep=\skip74
+\bibhang=\skip75
+\blx@bcfin=\read6
 \blx@bcfout=\write5
 \blx@langwohyphens=\language15
-\c@mincomprange=\count402
-\c@maxcomprange=\count403
-\c@mincompwidth=\count404
+\c@mincomprange=\count422
+\c@maxcomprange=\count423
+\c@mincompwidth=\count424
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1224,88 +1300,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'verbose-ibid.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count405
-\c@savedafterword=\count406
-\c@annotator=\count407
-\c@savedannotator=\count408
-\c@author=\count409
-\c@savedauthor=\count410
-\c@bookauthor=\count411
-\c@savedbookauthor=\count412
-\c@commentator=\count413
-\c@savedcommentator=\count414
-\c@editor=\count415
-\c@savededitor=\count416
-\c@editora=\count417
-\c@savededitora=\count418
-\c@editorb=\count419
-\c@savededitorb=\count420
-\c@editorc=\count421
-\c@savededitorc=\count422
-\c@foreword=\count423
-\c@savedforeword=\count424
-\c@holder=\count425
-\c@savedholder=\count426
-\c@introduction=\count427
-\c@savedintroduction=\count428
-\c@namea=\count429
-\c@savednamea=\count430
-\c@nameb=\count431
-\c@savednameb=\count432
-\c@namec=\count433
-\c@savednamec=\count434
-\c@translator=\count435
-\c@savedtranslator=\count436
-\c@shortauthor=\count437
-\c@savedshortauthor=\count438
-\c@shorteditor=\count439
-\c@savedshorteditor=\count440
-\c@labelname=\count441
-\c@savedlabelname=\count442
-\c@institution=\count443
-\c@savedinstitution=\count444
-\c@lista=\count445
-\c@savedlista=\count446
-\c@listb=\count447
-\c@savedlistb=\count448
-\c@listc=\count449
-\c@savedlistc=\count450
-\c@listd=\count451
-\c@savedlistd=\count452
-\c@liste=\count453
-\c@savedliste=\count454
-\c@listf=\count455
-\c@savedlistf=\count456
-\c@location=\count457
-\c@savedlocation=\count458
-\c@organization=\count459
-\c@savedorganization=\count460
-\c@origlocation=\count461
-\c@savedoriglocation=\count462
-\c@origpublisher=\count463
-\c@savedorigpublisher=\count464
-\c@publisher=\count465
-\c@savedpublisher=\count466
-\c@language=\count467
-\c@savedlanguage=\count468
-\c@origlanguage=\count469
-\c@savedoriglanguage=\count470
-\c@pageref=\count471
-\c@savedpageref=\count472
-\shorthandwidth=\skip73
-\shortjournalwidth=\skip74
-\shortserieswidth=\skip75
-\shorttitlewidth=\skip76
-\shortauthorwidth=\skip77
-\shorteditorwidth=\skip78
-\locallabelnumberwidth=\skip79
-\locallabelalphawidth=\skip80
-\localshorthandwidth=\skip81
-\localshortjournalwidth=\skip82
-\localshortserieswidth=\skip83
-\localshorttitlewidth=\skip84
-\localshortauthorwidth=\skip85
-\localshorteditorwidth=\skip86
+\c@afterword=\count425
+\c@savedafterword=\count426
+\c@annotator=\count427
+\c@savedannotator=\count428
+\c@author=\count429
+\c@savedauthor=\count430
+\c@bookauthor=\count431
+\c@savedbookauthor=\count432
+\c@commentator=\count433
+\c@savedcommentator=\count434
+\c@editor=\count435
+\c@savededitor=\count436
+\c@editora=\count437
+\c@savededitora=\count438
+\c@editorb=\count439
+\c@savededitorb=\count440
+\c@editorc=\count441
+\c@savededitorc=\count442
+\c@foreword=\count443
+\c@savedforeword=\count444
+\c@holder=\count445
+\c@savedholder=\count446
+\c@introduction=\count447
+\c@savedintroduction=\count448
+\c@namea=\count449
+\c@savednamea=\count450
+\c@nameb=\count451
+\c@savednameb=\count452
+\c@namec=\count453
+\c@savednamec=\count454
+\c@translator=\count455
+\c@savedtranslator=\count456
+\c@shortauthor=\count457
+\c@savedshortauthor=\count458
+\c@shorteditor=\count459
+\c@savedshorteditor=\count460
+\c@labelname=\count461
+\c@savedlabelname=\count462
+\c@institution=\count463
+\c@savedinstitution=\count464
+\c@lista=\count465
+\c@savedlista=\count466
+\c@listb=\count467
+\c@savedlistb=\count468
+\c@listc=\count469
+\c@savedlistc=\count470
+\c@listd=\count471
+\c@savedlistd=\count472
+\c@liste=\count473
+\c@savedliste=\count474
+\c@listf=\count475
+\c@savedlistf=\count476
+\c@location=\count477
+\c@savedlocation=\count478
+\c@organization=\count479
+\c@savedorganization=\count480
+\c@origlocation=\count481
+\c@savedoriglocation=\count482
+\c@origpublisher=\count483
+\c@savedorigpublisher=\count484
+\c@publisher=\count485
+\c@savedpublisher=\count486
+\c@language=\count487
+\c@savedlanguage=\count488
+\c@origlanguage=\count489
+\c@savedoriglanguage=\count490
+\c@pageref=\count491
+\c@savedpageref=\count492
+\shorthandwidth=\skip76
+\shortjournalwidth=\skip77
+\shortserieswidth=\skip78
+\shorttitlewidth=\skip79
+\shortauthorwidth=\skip80
+\shorteditorwidth=\skip81
+\locallabelnumberwidth=\skip82
+\locallabelalphawidth=\skip83
+\localshorthandwidth=\skip84
+\localshortjournalwidth=\skip85
+\localshortserieswidth=\skip86
+\localshorttitlewidth=\skip87
+\localshortauthorwidth=\skip88
+\localshorteditorwidth=\skip89
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1317,19 +1393,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count473
-\c@textcitetotal=\count474
-\c@textcitemaxnames=\count475
-\c@biburlbigbreakpenalty=\count476
-\c@biburlbreakpenalty=\count477
-\c@biburlnumpenalty=\count478
-\c@biburlucpenalty=\count479
-\c@biburllcpenalty=\count480
+\c@textcitecount=\count493
+\c@textcitetotal=\count494
+\c@textcitemaxnames=\count495
+\c@biburlbigbreakpenalty=\count496
+\c@biburlbreakpenalty=\count497
+\c@biburlnumpenalty=\count498
+\c@biburlucpenalty=\count499
+\c@biburllcpenalty=\count500
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count481
+\c@smartand=\count501
 )
 Package biblatex Info: Trying to load bibliography style 'verbose-ibid'...
 Package biblatex Info: ... file 'verbose-ibid.bbx' found.
@@ -1346,8 +1422,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count482
-\c@bbx:relatedtotal=\count483
+\c@bbx:relatedcount=\count502
+\c@bbx:relatedtotal=\count503
 )))
 Package biblatex Info: Trying to load citation style 'verbose-ibid'...
 Package biblatex Info: ... file 'verbose-ibid.cbx' found.
@@ -1373,12 +1449,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2024-01-22 L3 programming layer (loader) 
-
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count484
-\l__pdf_internal_box=\box82
-))
+)
 Package biblatex Info: ... and expl3
 (biblatex)             2024-01-22 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
@@ -1392,66 +1463,74 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen335
-\ar@mcellbox=\box83
-\extrarowheight=\dimen336
-\NC@list=\toks57
-\extratabsurround=\skip87
-\backup@length=\skip88
-\ar@cellbox=\box84
+\col@sep=\dimen339
+\ar@mcellbox=\box85
+\extrarowheight=\dimen340
+\NC@list=\toks59
+\extratabsurround=\skip90
+\backup@length=\skip91
+\ar@cellbox=\box86
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
-\CenteringLeftskip=\skip89
-\RaggedLeftLeftskip=\skip90
-\RaggedRightLeftskip=\skip91
-\CenteringRightskip=\skip92
-\RaggedLeftRightskip=\skip93
-\RaggedRightRightskip=\skip94
-\CenteringParfillskip=\skip95
-\RaggedLeftParfillskip=\skip96
-\RaggedRightParfillskip=\skip97
-\JustifyingParfillskip=\skip98
-\CenteringParindent=\skip99
-\RaggedLeftParindent=\skip100
-\RaggedRightParindent=\skip101
-\JustifyingParindent=\skip102
+\CenteringLeftskip=\skip92
+\RaggedLeftLeftskip=\skip93
+\RaggedRightLeftskip=\skip94
+\CenteringRightskip=\skip95
+\RaggedLeftRightskip=\skip96
+\RaggedRightRightskip=\skip97
+\CenteringParfillskip=\skip98
+\RaggedLeftParfillskip=\skip99
+\RaggedRightParfillskip=\skip100
+\JustifyingParfillskip=\skip101
+\CenteringParindent=\skip102
+\RaggedLeftParindent=\skip103
+\RaggedRightParindent=\skip104
+\JustifyingParindent=\skip105
 )
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeRochester.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemesidebar.sty
+\beamer@sidebarwidth=\dimen341
+\beamer@headheight=\dimen342
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerectangles.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemecrane.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty)
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count485
-\@quotereset=\count486
-(./presentation.aux)
-\openout1 = `presentation.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 22.
+\@quotelevel=\count504
+\@quotereset=\count505
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 2
-2.
-
+7.
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 22.
+(./presentation.aux)
+\openout1 = `presentation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1489,17 +1568,17 @@ LaTeX Font Info:    ... okay on input line 22.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count487
-\scratchdimen=\dimen337
-\scratchbox=\box85
-\nofMPsegments=\count488
-\nofMParguments=\count489
-\everyMPshowfont=\toks58
-\MPscratchCnt=\count490
-\MPscratchDim=\dimen338
-\MPnumerator=\count491
-\makeMPintoPDFobject=\count492
-\everyMPtoPDFconversion=\toks59
+\scratchcounter=\count506
+\scratchdimen=\dimen343
+\scratchbox=\box87
+\nofMPsegments=\count507
+\nofMParguments=\count508
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count509
+\MPscratchDim=\dimen344
+\MPnumerator=\count510
+\makeMPintoPDFobject=\count511
+\everyMPtoPDFconversion=\toks61
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1509,54 +1588,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 22.
+Package hyperref Info: Link coloring OFF on input line 27.
 
 (./presentation.out) (./presentation.out)
 \@outlinefile=\write6
 \openout6 = `presentation.out'.
 
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 22.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 22.
-\symnumbers=\mathgroup6
-\sympureletters=\mathgroup7
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/cmr/m/n on input line 22.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 22.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T2A/cmss/b/n on input line 22.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T2A/cmss/b/n on input line 22.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 22.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/cmss/m/n on input line 22.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T2A/cmss/m/n on input line 22.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 22.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T2A/cmss/m/it on input line 22.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T2A/cmss/m/it on input line 22.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 22.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 22.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 22.
-LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T2A/cmss/m/n --> T2A/cmss/b/n on input line 22.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T2A/cmss/m/it --> T2A/cmss/b/it on input line 22.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T2A/cmr/b/n on input line 22.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T2A/cmss/b/n --> T2A/cmss/b/n on input line 22.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T2A/cmss/m/n --> T2A/cmss/b/n on input line 22.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T2A/cmss/m/it --> T2A/cmss/b/it on input line 22.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T2A/cmtt/m/n --> T2A/cmtt/b/n on input line 22.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1582,13 +1619,13 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \th on input line 22.
+LaTeX Info: Redefining \th on input line 27.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 22.
+ on input line 27.
 
 Package biblatex Info: Trying to load language 'russian'...
 Package biblatex Info: ... file 'russian.lbx' found.
@@ -1610,568 +1647,604 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'presentation.bbl' not found.
 
 No file presentation.bbl.
-Package biblatex Info: Reference section=0 on input line 22.
-Package biblatex Info: Reference segment=0 on input line 22.
+Package biblatex Info: Reference section=0 on input line 27.
+Package biblatex Info: Reference segment=0 on input line 27.
 (./presentation.nav)
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 22--22
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 27--27
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 22--22
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 27--27
  [][][][] []  
  []
 
 
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 24--24
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 29--29
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 24--24
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 29--29
  [][][][] []  
  []
 
 
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 45--45
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 50--50
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 45--45
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 50--50
  [][][][] []  
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<oil_sector_pie.pdf, id=48, 289.08pt x 216.81pt>
+<oil_sector_pie.pdf, id=49, 289.08pt x 216.81pt>
 File: oil_sector_pie.pdf Graphic file (type pdf)
 <use oil_sector_pie.pdf>
-Package pdftex.def Info: oil_sector_pie.pdf  used on input line 45.
+Package pdftex.def Info: oil_sector_pie.pdf  used on input line 50.
 (pdftex.def)             Requested size: 122.91406pt x 92.18437pt.
 
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [2
 
  <./oil_sector_pie.pdf>]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 60--60
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 65--65
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 60--60
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 65--65
  [][][][] []  
  []
 
 
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Overfull \hbox (3.15813pt too wide) in paragraph at lines 65--65
+ []|\T2A/cmr/m/n/10 Неравномерность| 
+ []
+
+
+Overfull \hbox (3.36015pt too wide) in paragraph at lines 65--65
+ []|\T2A/cmr/m/n/10 Концентрация 
+ []
+
+
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [3
 
 ]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 81--81
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 90--90
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 81--81
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 90--90
  [][][][] []  
  []
 
 
-Overfull \hbox (4.68852pt too wide) detected at line 81
-\T2A/cmss/m/it/10 G \OT1/cmss/m/n/10 = []\OML/cmm/m/it/10 ;  \T2A/cmss/m/it/10 
-HHI \OT1/cmss/m/n/10 = [] \T2A/cmss/m/it/10 s[]
- []
-
-
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [4
 
 ]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 94--94
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 105--105
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 94--94
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 105--105
  [][][][] []  
  []
 
 
-Overfull \hbox (4.86487pt too wide) in paragraph at lines 94--94
- [][] 
- []
-
-
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [5
 
 ]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 125--125
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 136--136
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 125--125
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 136--136
  [][][][] []  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
-[]\T2A/cmss/m/n/10 Государственная
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
-[]\T2A/cmss/m/n/10 Commons
+Overfull \hbox (3.90466pt too wide) in paragraph at lines 136--136
+\T2A/cmr/m/n/10 Государственная
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
-[]\T2A/cmss/m/n/10 Переуступаемые
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]\T2A/cmr/m/n/10 Commons
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 125--125
-[]\T2A/cmss/m/n/10 Технология /
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]\T2A/cmr/m/n/10 Переуступаемые
  []
 
 
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]\T2A/cmr/m/n/10 Cap-and-
+ []
+
+
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [6
 
 ]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 145--145
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 156--156
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 145--145
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 156--156
  [][][][] []  
  []
 
 
-Overfull \hbox (0.86443pt too wide) in paragraph at lines 145--145
- []|\T2A/cmss/m/n/10 Государственная 
+Overfull \hbox (4.96065pt too wide) in paragraph at lines 156--156
+ []|\T2A/cmr/m/n/10 Государственная 
  []
 
 
-Overfull \hbox (20.64833pt too wide) in paragraph at lines 145--145
+Overfull \hbox (20.64833pt too wide) in paragraph at lines 156--156
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\T2A/cmss/m/it/8 Ис-точ-ни-ки: Bauer (1998), Budds
+Underfull \hbox (badness 1077) in paragraph at lines 156--156
+\T2A/cmr/m/it/8 Ис-точ-ни-ки: Bauer (1998), Budds
  []
 
-<murray_flow_ratio.pdf, id=252, 361.35pt x 252.945pt>
+
+Underfull \hbox (badness 1681) in paragraph at lines 156--156
+\T2A/cmr/m/it/8 (2008/09), Grafton et al. (2014),
+ []
+
+<murray_flow_ratio.pdf, id=256, 361.35pt x 252.945pt>
 File: murray_flow_ratio.pdf Graphic file (type pdf)
 <use murray_flow_ratio.pdf>
-Package pdftex.def Info: murray_flow_ratio.pdf  used on input line 145.
+Package pdftex.def Info: murray_flow_ratio.pdf  used on input line 156.
 (pdftex.def)             Requested size: 162.86325pt x 114.0056pt.
 
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [7
 
  <./murray_flow_ratio.pdf>]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 164--164
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 175--175
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 164--164
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 175--175
  [][][][] []  
  []
 
 
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [8
 
 ]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 177--177
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 188--188
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 177--177
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 188--188
  [][][][] []  
  []
 
-<weitzman_schematic.pdf, id=364, 650.43pt x 289.08pt>
+<weitzman_schematic.pdf, id=370, 650.43pt x 289.08pt>
 File: weitzman_schematic.pdf Graphic file (type pdf)
 <use weitzman_schematic.pdf>
-Package pdftex.def Info: weitzman_schematic.pdf  used on input line 177.
+Package pdftex.def Info: weitzman_schematic.pdf  used on input line 188.
 (pdftex.def)             Requested size: 261.19826pt x 116.08868pt.
 
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [9
 
  <./weitzman_schematic.pdf>]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 199--199
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 216--216
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 199--199
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 216--216
  [][][][] []  
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 199--199
-[]\T2A/cmss/m/n/10 Итог: ста-биль-ное па-ро-со-че-та-ние
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+[]\T2A/cmr/m/it/10 Обычно при-ме-ня-ет-ся: \T2A/cmr/m/n/10 Гейл--
  []
 
 
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Underfull \hbox (badness 1389) in paragraph at lines 216--216
+\T2A/cmr/m/n/10 Шепли ^^V ко-гда день-ги за-пре-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+\T2A/cmr/m/n/10 ще-ны (ре-зи-ден-ту-ра, шко-лы,
+ []
+
+
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [10
 
 ]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 213--213
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 277--277
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 213--213
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 277--277
  [][][][] []  
  []
 
 
-Overfull \hbox (11.05072pt too wide) in paragraph at lines 213--213
-[]\T2A/cmss/m/n/10 Метод Монте-Карло да-јт не од-но чис-ло, а рас-пре-де-ле-ние
-: $\T2A/cmss/m/it/10 V[]\OML/cmm/m/it/10 ; \T2A/cmss/m/it/10 V[]$\T2A/cmss/m/n/
-10 . 
+Overfull \hbox (15.547pt too wide) in paragraph at lines 277--277
+[][]  
  []
 
 
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Overfull \vbox (39.67538pt too high) detected at line 277
+ []
+
+
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [11
 
 ]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 227--227
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 292--292
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 227--227
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 292--292
  [][][][] []  
  []
 
 
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Overfull \hbox (21.5984pt too wide) in paragraph at lines 292--292
+[][]  
+ []
+
+
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [12
 
 ]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 242--242
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 319--319
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 242--242
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 319--319
  [][][][] []  
  []
 
 
-Underfull \hbox (badness 3746) in paragraph at lines 242--242
-[]|\T2A/cmss/m/n/10 Здравоохранение, об-ра-зо-ва-ние, бед-
+Overfull \vbox (106.5772pt too high) detected at line 319
  []
 
 
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [13
 
 ]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 253--253
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 338--338
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 253--253
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 338--338
  [][][][] []  
  []
 
 
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Overfull \hbox (19.30289pt too wide) in paragraph at lines 338--338
+[]\T2A/cmr/m/n/10 Метод Монте-Карло да-јт не од-но чис-ло, а рас-пре-де-ле-ние:
+ $\OML/cmm/m/it/10 V[]; V[]$\T2A/cmr/m/n/10 . 
+ []
+
+
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [14
 
 ]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 278--278
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 352--352
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 278--278
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 352--352
  [][][][] []  
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 278--278
-[]\T2A/cmss/m/n/10 Билирубин, МНО, кре-а-ти-нин (лог,
- []
-
-
-Underfull \hbox (badness 1924) in paragraph at lines 278--278
-[]\T2A/cmss/m/n/10 Пол: жен-щи-на $\OT1/cmss/m/n/10 +\T2A/cmss/m/n/10 1\OML/cmm
-/m/it/10 :\T2A/cmss/m/n/10 33$; ис-клю-че-ния
- []
-
-
-Underfull \hbox (badness 1231) in paragraph at lines 278--278
-[]\T2A/cmss/m/n/10 DSA/регионы за-ме-не-ны кру-га-ми в
- []
-
-
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [15
 
 ]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 290--290
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 367--367
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 290--290
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 367--367
  [][][][] []  
  []
 
 
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [16
 
 ]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 301--301
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 378--378
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 301--301
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 378--378
  [][][][] []  
  []
 
 
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [17
 
 ]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 319--319
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 417--417
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 319--319
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 417--417
  [][][][] []  
  []
 
 
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [18
 
 ]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 329--329
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 428--428
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 329--329
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 428--428
  [][][][] []  
  []
 
 
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [19
 
 ]
-Overfull \hbox (47.45775pt too wide) in paragraph at lines 344--344
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 446--446
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) in paragraph at lines 344--344
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 446--446
  [][][][] []  
  []
 
 
-Overfull \hbox (9.18132pt too wide) in paragraph at lines 344--344
-[]\T2A/cmss/m/n/8 Grafton et al. (2014) --- Ambio; Kirby et al. (2014) --- Agri
-cultural Water Management 
+Overfull \hbox (3.42113pt too wide) in paragraph at lines 446--446
+ []|\T2A/cmr/bx/n/10 Инструмент| 
  []
 
 
-Overfull \hbox (47.45775pt too wide) has occurred while \output is active
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
  [][]  
  []
 
 
-Overfull \hbox (61.3837pt too wide) has occurred while \output is active
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
  [][][][] []  
  []
 
 [20
+
+]
+Overfull \hbox (70.18755pt too wide) in paragraph at lines 473--473
+ [][]  
+ []
+
+
+Overfull \hbox (86.60367pt too wide) in paragraph at lines 473--473
+ [][][][] []  
+ []
+
+
+Overfull \hbox (70.18755pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+
+Overfull \hbox (86.60367pt too wide) has occurred while \output is active
+ [][][][] []  
+ []
+
+[21
 
 ]
 \tf@nav=\write7
@@ -2195,42 +2268,46 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43691 strings out of 475656
- 1002441 string characters out of 5787141
- 1937975 words of memory out of 5000000
- 64931 multiletter control sequences out of 15000+600000
- 583615 words of font info for 87 fonts, out of 8000000 for 9000
+ 45185 strings out of 475656
+ 1037264 string characters out of 5787141
+ 1944975 words of memory out of 5000000
+ 66375 multiletter control sequences out of 15000+600000
+ 579333 words of font info for 85 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 101i,15n,107p,763b,1690s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasx0800.600pk
-> </home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasi1200.600pk>
- </home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk> 
-</home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lass0600.600pk> <
-/home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasi0800.600pk> </
-home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lass0800.600pk> </h
-ome/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lass0700.600pk> </ho
-me/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasi0700.600pk> </hom
-e/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasi1000.600pk> </home
-/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasx1000.600pk> </home/
-vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lass1200.600pk> </home/v
-adim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lass0500.600pk> </home/va
-dim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lass1000.600pk> </home/vad
-im/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lass1728.600pk></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
-.pfb>
-Output written on presentation.pdf (20 pages, 351731 bytes).
+ 101i,15n,107p,763b,1688s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx0800.600pk
+> </home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0900.600pk>
+ </home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx0900.600pk> 
+</home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0600.600pk> <
+/home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati0800.600pk> </
+home/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0800.600pk> </h
+ome/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1000.600pk> </ho
+me/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1000.600pk> </hom
+e/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk> </home
+/vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0500.600pk> </home/
+vadim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk> </home/v
+adim/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1728.600pk></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy9.pfb>
+Output written on presentation.pdf (21 pages, 455077 bytes).
 PDF statistics:
- 1426 PDF objects out of 1440 (max. 8388607)
- 630 compressed objects within 7 object streams
- 41 named destinations out of 1000 (max. 500000)
+ 1533 PDF objects out of 1728 (max. 8388607)
+ 690 compressed objects within 7 object streams
+ 43 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

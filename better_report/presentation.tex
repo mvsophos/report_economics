@@ -3,6 +3,8 @@
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[english, russian]{babel}
+\usepackage{animate}
+\usepackage{verbatim}
 \usepackage{amsmath,pgfplots,booktabs,hyperref,graphicx}
 \usepackage[style=verbose-ibid,backend=biber]{biblatex}
 \addbibresource{references.bib}
@@ -12,8 +14,11 @@
 \usepackage{ragged2e}
 \let\raggedright=\justifying
 
+\usetheme{Rochester}
+\usecolortheme{crane}
+\usefonttheme{serif}
+
 \setbeamerfont{title}{size=\LARGE}
-\setbeamerfont{frametitle}{size=\large}
 
 \title{Инструменты управления редкими\\ и неравномерно распределёнными ресурсами}
 \author{Мещеряков Вадим, Иванова Дарья, Мишаков Андрей, Петрунников Тимур}
@@ -63,20 +68,24 @@
 \begin{frame}{Как измерить редкость и неравномерность}
   \begin{columns}[t]
     \column{0.5\textwidth}
-    \textbf{Редкость:}
+    \centering{\textbf{Редкость:}}
     \[
     \eta = \frac{\Delta Q/Q}{\Delta p/p}
     \]
+    {\raggedleft
     $\eta\to 0$ — цена не снимает дефицит.\\
-    Нефть: $\eta\approx 0.05$ (коротк.\ период). Органы: $\eta = 0$.
+    Нефть: $\eta\approx 0.05$ (коротк.\ период). Органы: $\eta = 0$.}
 
     \column{0.5\textwidth}
-    \textbf{Неравномерность:}
+    \centering{\textbf{Неравномерность:}}
     \[
-    G = \frac{\sum_{i,j}|x_i-x_j|}{2n^2\mu}, \qquad HHI=\sum_i s_i^2
+    G = \frac{\sum_{i,j}|x_i-x_j|}{2n^2\mu},\]
+    \[
+      HHI=\sum_i s_i^2.
     \]
+    {\raggedleft
     $G<0.3$ — равномерно, $G>0.5$ — остро.\\
-    $HHI>1800$ — высокая концентрация (порог DOJ/FTC 2023).
+    $HHI>1800$ — высокая концентрация (порог DOJ/FTC 2023).}
   \end{columns}
 \end{frame}
 
@@ -84,12 +93,14 @@
 \begin{frame}{Матрица исключаемость / соперничество}
   \centering
   \begin{tikzpicture}
-    \draw[->, very thick] (0,0) -- (7,0) node[right] {\textit{Исключаемость}};
-    \draw[->, very thick] (0,0) -- (0,7) node[above] {\textit{Соперничество}};
-    \draw[thick] (0,0) rectangle (3.5,3.5) node[midway] {\textbf{Общественные}};
-    \draw[thick] (3.5,0) rectangle (7,3.5) node[midway] {\textbf{Клубные}};
-    \draw[thick] (0,3.5) rectangle (3.5,7) node[midway] {\textbf{Commons / откр.\ доступ}};
-    \draw[thick] (3.5,3.5) rectangle (7,7) node[midway] {\textbf{Частные}};
+    \draw[->, very thick] (0,0) -- (5.5,0);
+    \draw[->, very thick] (0,0) -- (0,5.5);
+    \node at (-0.5, 2.5) {\rotatebox{90}{\textit{Соперничество}}};
+    \node at (2.5, -0.5) {\textit{Исключаемость}};
+    \draw[thick] (0,0) rectangle (2.5,2.5) node[midway] {\rotatebox{45}{\textbf{Общественные}}};
+    \draw[thick] (2.5,0) rectangle (5,2.5) node[midway] {\rotatebox{45}{\textbf{Клубные}}};
+    \draw[thick] (0,2.5) rectangle (2.5,5) node[midway] {\rotatebox{45}{\textbf{Commons}}};
+    \draw[thick] (2.5,2.5) rectangle (5,5) node[midway] {\rotatebox{45}{\textbf{Частные}}};
   \end{tikzpicture}
 \end{frame}
 
@@ -186,20 +197,134 @@
     \]
     Дорога A--B (стоимость 12): $v_A=8$, $v_B=6$, $v_C=0$.\\
     $p_A=6$, $p_B=4$, $p_C=0$.\\
-    Сумма платежей $10<12$ — бюджетный дефицит правила Кларка.
+    Сумма платежей $10<12$ — бюджетный дефицит правила Кларка.\\
+        \vspace{1.5cm}
+    \textit{Обычно применяется:} VCG — когда можно оценить выгоды, но нет рынка.
 
     \column{0.5\textwidth}
-    \textbf{Гейл--Шепли:}
+    \textbf{Гейл--Шепли:}\\
     Оба $m_1,m_2$ хотят $w_1$ — конфликт.\\
     $w_1$ выбирает $m_2$ (свой первый выбор), $m_1$ уходит к $w_2$.\\
-    Итог: стабильное паросочетание без денег.
+    %Необходимо так составить пары, чтобы не существовало $w$ и $m$, для которых существует 
+    Итог: стабильное паросочетание без денег.\\
+    
+        \vspace{3.05cm}
+    \textit{Обычно применяется:} Гейл--Шепли — когда деньги запрещены (резидентура, школы, донорство органов).
   \end{columns}
-  \vspace{0.3cm}
-  \footnotesize VCG — когда можно оценить выгоды, но нет рынка. Гейл--Шепли — когда деньги запрещены (резидентура, школы, обмен почками).
+  %\vspace{0.3cm}
+  %\footnotesize 
 \end{frame}
+
+% ====================== СЛАЙД --- VCG НА ПРИМЕРЕ
+\begin{frame}{Пример VCG: аукцион рекламных мест}
+  \begin{columns}[t]
+    \column{0.48\textwidth}
+    \textbf{Условие:}
+    \begin{itemize}
+      \item Место 1: 3 клика/ч; место 2: 1 клик/ч
+      \item Ценность клика: А$=10$, Б$=6$, В$=2$
+    \end{itemize}
+
+    \column{0.48\textwidth}
+    \textbf{Платёж = }\\
+    \footnotesize
+    \[
+    \underbrace{\max_x\!\sum_{j\ne i} v_j(x)}_{\text{лучшее для других БЕЗ }i} -
+    \underbrace{\sum_{j\ne i} v_j(x^*)}_{\text{факт СО }i}
+    \]
+  \end{columns}
+  
+  \vspace{0.2cm}
+    \small{
+    \textbf{Оптимум $x^*$:}\\
+    А $\to$ место 1, Б $\to$ место 2, В $\to$ ничего\\
+    (сумма ценности $=36$ — максимум из всех рассадок)}
+
+  \vspace{0.4cm}
+  \begin{tabular}{cc}
+
+          \begin{tabular}{@{}lccc@{}}
+            \toprule
+            & \textbf{А} & \textbf{Б} & \textbf{В} \\
+            \midrule
+            Без участника & 20 & 32 & 36 \\
+            С участником  & 6  & 30 & 36 \\
+            \midrule
+            \textbf{Платёж} & \textbf{14} & \textbf{2} & \textbf{0} \\
+            \bottomrule
+          \end{tabular}
+          &
+          {\small
+          \begin{tabular}{ccc}
+              \toprule
+              Место 1 & Место 2 & $\Sigma$ ценности \\
+              \midrule
+              А (10) & Б (6) & $10\cdot3+6\cdot1=36$  \\
+              А (10) & В (2) & 32 \\
+              Б (6) & А (10) & 28 \\
+              Б (6) & В (2) & 20 \\
+              В (2) & А (10) & 16 \\
+              В (2) & Б (6) & 12 \\
+              \bottomrule
+          \end{tabular}}
+  \end{tabular}
+
+  \vspace{0.3cm}
+  \begin{alertblock}{}
+    А не просто занял лучшее место — он ещё и не дал Б пересесть на него же. Отсюда большой платёж 14.
+  \end{alertblock}
+  %\footnotesize На практике рекламные площадки чаще используют GSP (платишь ставку следующего за тобой), а не VCG — GSP проще объяснить, но не гарантирует ни честности ставок, ни эффективности.
+\end{frame}
+
+% ================= СЛАЙД ГЕЙЛ-ШЕПЛИ ====================
+\begin{frame}{Пример Гейл--Шепли: обмен органами}
+Донорские органы --- редкий ресурс, во многом потому что его нельзя сохранять долго. Неизвестно почему, государства запрещают продавать органы (на самом деле у этого есть экономическое объяснение), хотя, если мы откроем рынок для продажи органов \textbf{клиринговая цена} установится очень быстро.\\
+
+Две пары родственников: донор A --- рецепиент A и донор B --- рецепиент B.
+
+\begin{tabular}{cccccc}
+Донор A & Донор B &  & Донор A & & Донор B\\
+$\not\Downarrow$ & $\not\Downarrow$ & $ \Longrightarrow $ & $\not\Downarrow$ & & $\not\Downarrow$ \\
+Рецепиент A & Рецепиент B &  & Рецепиент B & $ \Leftrightarrow $ & Рецепиент A
+\end{tabular}
+
+Эти цепочки могут быть длинными, или могут запускаться с независимого донора. Алгоритм OPTN находит возможных кандидатов для такой пересадки.  
+\end{frame}
+
+% ================= СЛАЙД С DCF
+\begin{frame}{Стоимость права: DCF и рента}
+\footnotesize
+\textbf{Зачем это нужно:} квота или лицензия — это право на будущий денежный поток. Чтобы её продать, обложить налогом или оценить сегодня, поток будущих денег нужно свернуть в одно сегодняшнее число.
+
+\vspace{0.25cm}
+\begin{block}{Шаг 1 --- очевидное: один платёж}
+Доход $R$ через $t$ лет сегодня стоит меньше:
+\[ PV=\dfrac{R}{(1+r)^t} \]
+\end{block}
+
+\begin{block}{Шаг 2 --- обобщаем на поток платежей}
+Право даёт не один, а $T$ платежей $R_1,\dots,R_T$ --- суммируем их PV:
+\[ V_0=\sum_{t=1}^{T}\dfrac{R_t}{(1+r)^t} \]
+\end{block}
+
+\begin{block}{Шаг 3 --- подставляем экономический смысл $R_t$}
+Доход от права = объём $\times$ маржа: $R_t=q_t(P_t-C_t)$:
+\[ V_0=\sum_{t=1}^{T}\dfrac{q_t(P_t-C_t)}{(1+r)^t} \]
+\end{block}
+
+\begin{alertblock}{Частный случай: бессрочное право, постоянная рента $R$}
+\[ V_0=\sum_{t=1}^{\infty}\dfrac{R}{(1+r)^t}=\dfrac{R}{r} \]
+Верно только если рента не растёт со временем --- иначе (истощаемый ресурс) рента растёт темпом $r$ по правилу Хотеллинга, и формула не работает.
+\end{alertblock}
+\end{frame}
+
 
 % ================= СЛАЙД — DCF / РЕНТА =================
 \begin{frame}{Стоимость права: DCF и рента}
+$R_t$ --- выгода права в момент t. Значит цена права, которое действует $T$ времени:
+\[
+V_0 = \sum_{t=1}^{T} \frac{R_t}{(1+r)^t},
+\]
   \[
   V_0 = \sum_{t=1}^{T} \frac{q_t(P_t-C_t)}{(1+r)^t}, \qquad
   \text{бессрочно: } V_0 = \frac{R}{r}
@@ -252,6 +377,7 @@
   \end{itemize}
 \end{frame}
 
+\iffalse
 % ================= СЛАЙД — UNOS =================
 \begin{frame}{UNOS: распределение печени — MELD 3.0}
   \begin{columns}
@@ -276,6 +402,7 @@
     Третий полюс: \textbf{приоритизация без денег}. Рынок запрещён институционально (NOTA 1984) — Иран, регулируемый рынок почек с 1988 г., редкое исключение.
   \end{alertblock}
 \end{frame}
+\fi
 
 % ================= СЛАЙД — МОНГОЛИЯ =================
 \begin{frame}{Монголия: разрушение работавших commons}
@@ -318,6 +445,7 @@
   \end{block}
 \end{frame}
 
+\iffalse
 % ================= СЛАЙД — ВОПРОС =================
 \begin{frame}{Вопрос залу}
   \begin{columns}
@@ -327,6 +455,7 @@
     (вода, органы, радиочастоты, углерод, земля)
   \end{columns}
 \end{frame}
+\fi
 
 \begin{frame}{Основные источники:}
 \footnotesize
